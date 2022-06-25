@@ -1,0 +1,38 @@
+.services {
+    padding-top: 0;
+  }
+  
+  .service-container {
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: -30px;
+    flex-basis: calc((100% - 90px) / 3);
+ }
+
+  .service-foto {
+    margin-left: 30px;
+  }
+
+.applications {
+  position: relative;
+  overflow: hidden;
+}
+
+  .applications-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-weight: var(--primary-text-size);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    color: var(--additional-color);
+    background-color: rgba(47, 48, 58, 0.8);
+   
+  }

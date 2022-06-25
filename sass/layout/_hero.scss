@@ -1,0 +1,62 @@
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: linear-gradient( to right,
+   rgba(47, 48, 58, 0.4),
+   rgba(47, 48, 58, 0.4) ), url(../imegs/hero/hero.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #C4C4C4;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  margin-bottom: 30px;
+  width: 696px;
+  height: 120px;
+  color: var(--additional-color);
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: 0.06em;
+  }
+
+.title-order-btn {
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+} 
+
+.modal-button {
+  font-weight: var(--primary-text-size);
+  font-size: 16px;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  background-color:var(--accent-color);
+  color: var(--additional-color);
+  border: 1px solid var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms var(--cubic-bezier);
+
+  &:hover,
+  &:focus {
+   background-color: #188CE8;
+  }
+     
+}
+   

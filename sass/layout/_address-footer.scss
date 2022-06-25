@@ -1,0 +1,37 @@
+.address {
+    display: flex;
+    align-items:baseline;
+
+  }
+
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-color-hero-footer);
+  }
+
+  
+  .logo-footer-address {
+    display:flex;
+    flex-direction: column;
+    
+  }
+  
+  .list__address:not(:last-child) {
+    margin-bottom:9px ;
+  }
+  
+  .list__address-contacts {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--additional-color); 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+  color: var(--accent-color);
+  }
+
+}
+
